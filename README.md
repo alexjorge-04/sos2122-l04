@@ -1,5 +1,5 @@
 # Package L04
-this is my first package
+This is my first package
 
 ## Install
 ```
@@ -10,4 +10,7 @@ npm install
 ```
 npm start
 ```
-Done by [@alexjorge]
+
+Done by [@pafmon](www.us.es)
+
+

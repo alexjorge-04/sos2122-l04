@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " npx newman run ./tests/backend.json -e ./tests/env/local.json"
+
   },
   "author": "pablofm",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.2",
-    "cool-ascii-faces": "^1.3.4",
     "express": "^4.17.3"
   }
 }
